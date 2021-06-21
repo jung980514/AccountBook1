@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray">
+        <item> 필터를 설정해 주세요 </item>
+        <item> 식비 </item>
+        <item> 교통비 </item>
+        <item> 공과금 </item>
+        <item> 쇼핑 </item>
+        <item> 기타 </item>
+    </string-array>
+</resources>

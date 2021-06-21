@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_1"
+        android:enabled="true"
+        android:icon="@drawable/month1"
+        android:title="달력"
+        android:checked="true"/>
+    <item
+        android:id="@+id/action_2"
+        android:enabled="true"
+        android:icon="@drawable/week1"
+        android:title="통계" />
+    <item
+        android:id="@+id/action_3"
+        android:enabled="true"
+        android:icon="@drawable/day1"
+        android:title="일별 보기" />
+    <item
+        android:id="@+id/action_4"
+        android:enabled="true"
+        android:icon="@drawable/setting1"
+        android:title="환경 설정" />
+    />
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/listImgView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/income" />
+
+        <LinearLayout
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/listTextViewRdo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:hint="수입"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/listTextViewCombo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:hint="필터"
+                android:textSize="13.5sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFA82B"
+            android:id="@+id/listTextViewEdt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="해당 요일의 수입" />
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/imgBtnTrash"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="6dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/trash1" />
+
+    </LinearLayout>
+
+</LinearLayout>

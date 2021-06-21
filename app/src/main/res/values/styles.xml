@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/customGreen</item>
+        <item name="colorPrimaryDark">@color/customDenseGreen</item>
+        <item name="colorAccent">#707070</item>
+    </style>
+
+    <style name="textStyleItalic">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#585757</item>
+    </style>
+    <style name="textStyleBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#585757</item>
+    </style>
+    <style name="textStyleItalic_Bold">
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">#585757</item>
+    </style>
+
+</resources>
